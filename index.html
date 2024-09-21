@@ -10,6 +10,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+
+    /*selectores de etiqueta*/
     h1{
       color: orange;
       font-family: verdana;
@@ -29,6 +31,30 @@
       font-size: 25px;
       text-align: center;    
     }
+    p {
+      color: gray;
+      font-family: arial;
+      font-size: 16px;
+      text-align: center;
+    }
+    /*selectores de clase*/
+    .boton1{
+      background-color: #1abc9c;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 40px;
+      padding-left: 40px;
+      border-radius: 30px;
+
+      font-family: arial;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .boton1:hover {
+      background-color: #3498db;
+    }
   </style>
 </head>
 <body>
@@ -39,8 +65,9 @@
  <p>Clipboard allows you to track and organize everything you 
   copy. Instantly access your clipboard on all your devices.</p>
 
-  Download for iOS
-  Download for Mac
+  <a class="boton1" href="#">Download for iOS</a>
+  <br><br>
+  <a class="boton1" href="#">Download for Mac</a>
 
   <h2>Keep track of your snippets</h2>
 
@@ -97,9 +124,10 @@
   <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
   and you’re ready to start adding to your clipboard.</p>
 
-  Download for iOS
-  Download for Mac
-
+  <a class="boton1" href="#">Download for iOS</a>
+  <br><br>
+  <a class="boton1" href="#">Download for Mac</a>
+  <br><br>
   <img src="images/logo.svg" alt="">
   FAQs
   Contact Us
