@@ -1,0 +1,50 @@
+
+/*selectores de etiqueta*/
+h1{
+    color: orange;
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    color: brown;
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;    
+}
+h3{
+    color: #2e86c1;
+    font-family: arial;
+    font-size: 25px;
+    text-align: center;    
+}
+p {
+    color: gray;
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*selectores de clase*/
+.boton1{
+    background-color: #3498db;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+    
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.boton1:hover {
+    background-color: #1abc9c;
+}
+.centrado {
+    text-align: center;
+    margin: 10px;
+}
+        
